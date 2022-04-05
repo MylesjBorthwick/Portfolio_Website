@@ -12,9 +12,7 @@
 
      text-align: center;
 
-     animation: dropDown 0.5s 1s;
-     animation-iteration-count: 1;
-     animation-fill-mode: forwards;
+  
 }
 
 .color-letter6{
