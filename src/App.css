@@ -1,0 +1,18 @@
+
+.App {
+  background-image: url(./assets/gradient.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  min-height: 100vh;
+  /* min-width:100vw; */
+ 
+  font-family:  'Lora', sans-serif;
+
+}
+
+button{
+  font-family: 'Cutive', sans-serif;
+}
+

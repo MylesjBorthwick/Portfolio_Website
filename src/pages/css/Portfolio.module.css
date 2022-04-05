@@ -1,0 +1,97 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  min-height: 30vh;
+  /* background-color: transparent;
+    animation: fadeInAnimationTitle 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+
+/* @keyframes fadeInAnimationTitle {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    } */
+
+.cards {
+  animation: fadeInAnimation 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+  overflow: hidden;
+  border-right: 0.08em solid black;
+  white-space: nowrap;
+  animation: typing 1.5s steps(16, end) 0.5s forwards, blink 0.8s infinite;
+  font-size: 7vw;
+  width: 0;
+
+  /* animation-delay: ; */
+}
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 28%;
+    }
+  }
+
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: rgba(208, 145, 67, 1);
+  }
+}
+
+
+.item {
+  max-height: 100%;
+}
+
+.card {
+  min-height: 300px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .title {
+    font-size: 10vw;
+    max-width: 40vw;
+  }
+  .main {
+    justify-content: center;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 40%;
+    }
+  }
+}

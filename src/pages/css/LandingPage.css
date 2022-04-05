@@ -1,0 +1,69 @@
+
+
+
+.main{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        
+}
+
+
+/* .landing{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  } */
+
+.logo{
+    max-height: 30vh;
+    max-width:  30vw;
+    cursor: pointer;
+    transition: 1s;
+    animation: fadeIn 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
+
+.logo:hover{
+    max-height: 40vh;
+    max-width: 40vw;
+    
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .logo{
+        max-width: 80vw;
+    }
+
+    .logo:hover{
+        max-width: 90vw;
+    }
+
+
+
+  }
+
+
+
+
+

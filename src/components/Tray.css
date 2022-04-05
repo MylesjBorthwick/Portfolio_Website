@@ -1,0 +1,60 @@
+
+
+ul{ 
+    list-style: none;
+    font-family: 'Cutive', sans-serif;
+    text-align: left;
+    padding-left: 7%;
+    display: inline-block;
+   
+    
+  
+}
+
+.icon{
+    padding-right: 10px;
+    vertical-align: middle;
+    padding-bottom: 6px;
+    
+  
+    
+}
+
+ul ul{
+    
+    text-align: left;
+    
+}
+
+li li {
+    font-size: 15px;
+  
+    
+}
+
+li li:hover,a:hover{
+    
+    color: white;
+    cursor: pointer;
+   
+}
+
+hr{
+    border: 0.5px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    width: 75%;
+}
+
+
+li {
+    font-size: 22px;
+    line-height: 3em;
+  
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

@@ -1,0 +1,11 @@
+.board{
+
+    display: flex;
+   
+    width:250px;
+    flex-wrap: wrap;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
