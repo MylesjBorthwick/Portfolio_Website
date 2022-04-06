@@ -143,10 +143,12 @@
   justify-content: center;
   align-items: center;
   /* flex-wrap: wrap; */
-  font-size: 1.1em;
+
   width:90%;
   height: 90% ;
- font-family: "JetBrains Mono",monospace;
+  font-size: calc(0.4em + 0.5vw);
+ font-family: "Cutive", sans-serif;
+
 
  
   
@@ -156,15 +158,16 @@
   opacity: 0;
 
   /* transition: opacity 0.5s ease-in-out; */
-  font-family: "JetBrains Mono",monospace;
+  font-family: "Cutive", sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  font-size: calc(0.3em + 0.5vw);
   /* text-align: center; */
   /* flex-direction: column; */
 
-  font-size: 1em;
+
   gap: 5%;
   /* row-gap: 10%; */
    height: 80%;
@@ -210,12 +213,13 @@
 }
 
 .info{
-  font-size: 0.8em;
+  
   width: 98%;
   text-align:left;
   align-self: center;
   font-style: italic;
-  font-family: "JetBrains Mono",monospace;
+ 
+
 }
 
 .about-me:hover  .box-content {
@@ -260,9 +264,10 @@
   }
 
   .info{
-    font-size: 0.8em;
+
     height: 80%;
     width: 90%;
+   
   }
  
 
@@ -275,7 +280,13 @@
   }
 
   .box-content{
-    font-size: 3vw;
+    font-size: calc(0.2em + 1.5vw);
+    width: 98%;
+    
+  }
+
+  .box-content-skills{
+    font-size: calc(0.1em + 2vw);
     width: 100%;
   }
   .grid h1{

@@ -9,8 +9,10 @@ import Tray from "./Tray";
 function NavBar(props) {
 
   return (<nav className={classes.navbar}>
-      <img src={logo} className={classes.logo} alt="avatar" />
-
+    <span className={classes.logolink}>
+     <Link to="/"> <img src={logo} className={classes.logo} alt="avatar" /></Link>
+      </span>
+      
       <ul className={classes.links}>
         <li>
           <Link to="/home">Home</Link>

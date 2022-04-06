@@ -1,6 +1,6 @@
 
 
-ul{ 
+.navlist{ 
     list-style: none;
     font-family: 'Cutive', sans-serif;
     text-align: left;
@@ -16,15 +16,18 @@ ul{
     vertical-align: middle;
     padding-bottom: 6px;
     
-  
     
 }
 
-ul ul{
-    
-    text-align: left;
-    
+.navbars:hover{
+    color: white;
 }
+
+
+
+
+
+
 
 li li {
     font-size: 15px;
@@ -32,12 +35,10 @@ li li {
     
 }
 
-li li:hover,a:hover{
-    
+.navlist li a:hover{
     color: white;
-    cursor: pointer;
-   
 }
+
 
 hr{
     border: 0.5px solid grey;

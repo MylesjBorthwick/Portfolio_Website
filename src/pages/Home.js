@@ -42,7 +42,7 @@ function HomePage() {
           {/* <Title /> */}
 
           <span className="banner">
-           <span className="software">Software Engineering</span> | <span className="mech">Mechanical Engineering</span>
+           Software Engineering | Mechanical Engineering
           </span>
 
           <div className="project-link">

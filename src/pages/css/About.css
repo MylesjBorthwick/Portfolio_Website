@@ -202,6 +202,18 @@
        
     }
 
+    .tech-icons{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .me{
+      width: calc(200px + 20vw);
+
+    } 
+
     
     .intro-cell{
       width: 100%;
@@ -213,6 +225,8 @@
     .cell{
       width: 100%;
     }
+
+   
     .intro{
       width: 100%;
     }

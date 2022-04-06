@@ -7,12 +7,42 @@
     background-color:transparent;
     display: flex;
     
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     transition: 0.5s ease-out;
     font-family: 'Cutive', sans-serif;
     
 
+
+}
+
+.navbar li{
+   
+   
+    /* min-height: 22vh; */
+  
+    display: flex;
+ 
+ 
+
+    text-justify: center;
+   
+ 
+  
+  
+    background: 
+    linear-gradient(to right, transparent, transparent),
+  
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 0% 0%, 0 75%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.navbar li:hover,
+.navbar li:focus {
+  background-size: 0 0.1em, 100% 0.1em;
 
 }
 
@@ -22,11 +52,75 @@
     list-style: none;
     display: flex;
     gap: 5vw;
+   
+   
+    display: flex;
+
+    
     /* left: 30%; */
-    position: relative;
+    /* position: absolute; */
+    /* align-self: flex-end;
+    justify-self: flex-end; */
+    /* max-height: min-content; */
     
    
 }
+.navbar a{
+    text-decoration: none;
+    /* font-size: 20px; */
+    color:black;
+    
+ }
+
+ .links{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ 
+ .links li:hover,a:hover, .navbar span:hover{
+     
+    
+     cursor: pointer;
+  
+    
+ }
+ 
+ .navbar span{
+     display: flex;
+     align-items: center;
+ }
+ 
+
+
+
+ .logo{
+     max-width: 100px;
+ 
+     position:sticky;
+ 
+   
+     
+ 
+    
+     /* padding-right: 10%; */
+     transition: 0.5s ease-in-out;
+     
+     
+     
+ }
+ 
+ .logolink{
+     padding-left: 5%;
+     padding-top: 1%;
+     min-height: 100%;
+ }
+ 
+ .logo:hover{
+     transform: rotate(360deg);
+ }
+ 
 
 
 @media only screen and (max-width: 1000px) {
@@ -36,61 +130,16 @@
     .navbar ul{
         gap: 0;
     }
+
+    .logolink{
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+
+   
+   
   }
 
-.navbar a{
-   text-decoration: none;
-   font-size: 20px;
-   color:black;
-   
-}
-
-
-.navbar li:hover,a:hover, .navbar span:hover{
-    
-    color: white;
-    cursor: pointer;
-   
-}
-
-.navbar span{
-    display: flex;
-    align-items: center;
-}
-
-.icon{
-    margin-right: 4%;
-    transition: 0.5s ease-in-out;
-
-}
-
-.icon:hover{
-    color: white;
-    cursor: pointer;
-}
-
-.icon:active{
-    transform: rotate(90deg);
-    transition: 0.5s ease-out;
-}
-
-.logo{
-    max-width: 100px;
-    display: flex;
-    position:absolute;
-    justify-content: center;
-    left: 4%;
-   
-    /* padding-right: 10%; */
-    transition: 0.5s ease-in-out;
-    
-    
-    
-}
-
-.logo:hover{
-    transform: rotate(360deg);
-}
 
 
 

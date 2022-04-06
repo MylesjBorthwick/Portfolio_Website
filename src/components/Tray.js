@@ -14,7 +14,7 @@ import HandymanOutlinedIcon from '@mui/icons-material/HandymanOutlined';
 import CottageOutlinedIcon from '@mui/icons-material/CottageOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import { AiOutlineBars } from "react-icons/ai";
-import classes from "./Tray.css"
+import classes from "./Tray.module.css"
 import { SportsRugbySharp } from '@mui/icons-material';
 import { red } from '@mui/material/colors';
 import { alpha, makeStyles } from '@mui/material';
@@ -47,13 +47,13 @@ export default function Tray() {
     >
       
     
-      <ul>
-        <li >
-        <Link to="/home"><CottageOutlinedIcon className='icon'/>Home</Link>
+      <ul className={classes.navlist}>
+        <li>
+        <Link to="/home"><CottageOutlinedIcon  className={classes.icon}/>Home</Link>
         </li>
        
         <li>
-          <Link to="/portfolio"><HandymanOutlinedIcon className='icon'/>Portfolio</Link>
+          <Link to="/portfolio"><HandymanOutlinedIcon  className={classes.icon}/>Portfolio</Link>
           <ul>
             <li><Link to="/portfolio/spring">Spring API</Link></li>
             <li><Link to="/portfolio/tictactoe">Tic-Tac-Toe</Link></li>
@@ -67,7 +67,7 @@ export default function Tray() {
        
 
         <li>
-         <Link to="/about"> <InfoOutlinedIcon className='icon'/>About</Link>
+         <Link to="/about"> <InfoOutlinedIcon className={classes.icon}/>About</Link>
         </li>
  
         </ul>
@@ -85,10 +85,10 @@ export default function Tray() {
   );
 
   return (
-    <div>
+    <div className={classes.tray}>  
     
         <React.Fragment key={"right"}>
-        <AiOutlineBars className='icon' size="35px"  onClick={toggleDrawer("right", true)}/> 
+        <AiOutlineBars className={classes.navbars} size="35px"  onClick={toggleDrawer("right", true)}/> 
           {/* <Button onClick={toggleDrawer("right", true)}>{"right"}</Button> */}
           <Drawer
             PaperProps={{sx:{

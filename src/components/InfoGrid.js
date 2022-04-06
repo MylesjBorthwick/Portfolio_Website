@@ -13,8 +13,8 @@ export default function InfoGrid() {
           <h1>About Me</h1>
           <span className="box-content">
             <div className="info">
-              I'm a versatile and adaptable engineering graduate with a background in both Mechanical and Software engineering. As a life-long learner I am constantly looking for new outlets to develop my skillset and create value for myself and others. 
-              <p>I believe the intersection between software and traditional engineering plays a crucial role in building a sustainable future and would like nothing more than to be a part of that process.</p>
+              I'm a versatile and adaptable graduate with a background in both Mechanical Engineering and Software Development. As a life-long learner I am constantly looking for new opportunities to develop my skillset and create value for myself and others. 
+              <p>Get in touch with me through LinkedIn or hover over my photo to download my full resume!</p>
             </div>
           </span>
         </div>

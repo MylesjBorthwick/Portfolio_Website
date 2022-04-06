@@ -10,7 +10,7 @@ import H5 from "../assets/icons/html.png"
 
 function LanguageIcons(){
 
-    return(<div><img src={Java}></img>
+    return(<div className="tech-icons"><img src={Java}></img>
     <img src={Script}/><img src={Python}/><img src={H5}/><img src={Css}/><img src={Csharp}/><img src={Cplus}/></div>
     )
 
