@@ -1,7 +1,7 @@
 
 
 .navbar{
-    width: 100vw;
+    width: 100%;
     min-height: 12vh;
 
     background-color:transparent;
@@ -18,7 +18,7 @@
 
 
 .navbar ul{
-    margin-right: 4%;
+    margin-right: 5%;
     list-style: none;
     display: flex;
     gap: 5vw;
@@ -29,9 +29,12 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .navbar li {
       display: none;
+    }
+    .navbar ul{
+        gap: 0;
     }
   }
 

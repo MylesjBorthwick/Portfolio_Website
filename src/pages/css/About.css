@@ -197,6 +197,7 @@
         flex-direction: column;
         gap: 0;
         justify-content: center;
+        width: 100%;
 
        
     }
@@ -219,6 +220,8 @@
       gap: 0;
       padding-top: 10%;
     }
+
+ 
 
     /* .me{
       width:

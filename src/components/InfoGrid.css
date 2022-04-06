@@ -105,12 +105,12 @@
 
 
 .row h1 {
-  overflow: hidden;
-  border-right: 0.08em solid black;
+
+
   white-space: nowrap;
-  animation: typing 1.5s steps(16, end) 0.5s forwards, blink 0.8s infinite;
+
   font-size: 2em;
-  width: 0;
+
   min-height: min-content;
   max-width: min-content;
   font-family: 'Cutive', sans-serif;;
@@ -118,24 +118,7 @@
   /* animation-delay: ; */
 }
 
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 20%;
-    }
-  }
 
-
-@keyframes blink {
-  from {
-    border-color: transparent;
-  }
-  to {
-    border-color: rgba(208, 145, 67, 1);
-  }
-}
 
 
 .about-me:hover {
@@ -227,7 +210,7 @@
 }
 
 .info{
-  font-size: 1em;
+  font-size: 0.8em;
   width: 98%;
   text-align:left;
   align-self: center;
@@ -263,7 +246,7 @@
   
 
   .about-me{
-    height: 20vh;
+    height: 30vh;
     width:80vw;
    
     /* flex-shrink: 1; */
@@ -273,11 +256,13 @@
   .about-me:hover{
  
     width:95vw;
+    height: 40vh;
   }
 
   .info{
-    font-size: 1em;
+    font-size: 0.8em;
     height: 80%;
+    width: 90%;
   }
  
 
@@ -291,6 +276,7 @@
 
   .box-content{
     font-size: 3vw;
+    width: 100%;
   }
   .grid h1{
     font-size: 1.5em;
@@ -301,6 +287,16 @@
 
 
 
+
+
  
+}
+
+@media only screen and (max-width: 400px) {
+
+  .info{
+    font-size: 1.2em;
+  }
+
 }
 

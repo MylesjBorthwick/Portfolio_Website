@@ -19,7 +19,7 @@ function HomePage() {
       </header>
 
       <div className="layout-home">
-      <div className="about-left">
+      <div className="home-left">
         <div className="pic">
        
           <img className="avatar" src={Avatar2} alt="avatar" />
@@ -38,8 +38,8 @@ function HomePage() {
         </div>
        
         <div className="content">
-          {/* <div className="title">Myles Borthwick</div> */}
-          <Title />
+          <div className="title">Myles Borthwick</div>
+          {/* <Title /> */}
 
           <span className="banner">
            <span className="software">Software Engineering</span> | <span className="mech">Mechanical Engineering</span>

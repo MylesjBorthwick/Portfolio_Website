@@ -175,11 +175,15 @@
   -moz-background-clip: text;
   /* font-family: 'Cutive', sans-serif; */
   background-clip: text;
-  text-shadow: rgba(255, 255, 255, 0.2) 0px 3px 3px;
-  font-size: 12vw;
-  min-height: 22vh;
+  text-shadow: 0px 3px 0px #b2a98f,
+  0px 5px 5px rgba(0,0,0,0.15),
+  0px 10px 2px rgba(0,0,0,0.1),
+  0px 34px 30px rgba(0,0,0,0.1);
+  font-size: 6em;
+  /* min-height: 22vh; */
 
   display: flex;
+  text-align: center;
 
   /* justify-content: center; */
 }
@@ -279,41 +283,50 @@
   align-items: flex-start;
 }
 
+.home-left{
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInAnimation 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
 
 @media only screen and (max-width: 1000px) {
   .layout-home {
     flex-direction: column;
-    row-gap: 20vw;
-    justify-content: center;
+    row-gap: 10vh;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
     
   }
-  .title {
-  
-    /* min-width: 100%; */
-    min-height: 15vw;
-   
+
+  .home-left{
+    padding-top: 5%;
   }
+
+
+
   .banner {
     font-size: 4vw;
   }
 
   .btn-projects{
-    width:15vw;
-    height:15vw;
+    width:10vh;
+    height:10vh;
     position: relative;
   }
 
   .avatar {
-    max-width: 50vw;
-  }
-
-  .contact-mobile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .contact-desktop{
-    display: none;
+    
+    width: 60vw;
+    max-width: 300px;
   }
 
   .project-link{
@@ -321,7 +334,13 @@
   }
   .content{
    
-    min-width: 100vw;
+    max-width:90%;
+    gap: 6vh;
   }
 
+  .title{
+    font-size: 11vw;
+  }
+
+ 
 }
