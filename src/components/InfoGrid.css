@@ -111,6 +111,7 @@
   animation: typing 1.5s steps(16, end) 0.5s forwards, blink 0.8s infinite;
   font-size: 2em;
   width: 0;
+  min-height: min-content;
   max-width: min-content;
   font-family: 'Cutive', sans-serif;;
 
@@ -191,7 +192,7 @@
 
 
 
-h1 {
+.grid h1 {
   font-family: "Cutive", sans-serif;
   position: fixed;
   opacity: 1;
@@ -249,8 +250,11 @@ h1 {
     } */
   .box {
     width: 80vw;
-    height: 10vh;    
+    height: 10vh;
+        
   }
+
+
 
   .box:hover{
     width: 95vw;
@@ -272,7 +276,8 @@ h1 {
   }
 
   .info{
-    font-size: 0.6em;
+    font-size: 1em;
+    height: 80%;
   }
  
 
@@ -287,6 +292,11 @@ h1 {
   .box-content{
     font-size: 3vw;
   }
+  .grid h1{
+    font-size: 1.5em;
+  }
+
+
 
 
 

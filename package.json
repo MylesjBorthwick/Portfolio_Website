@@ -1,8 +1,8 @@
 {
   "name": "something-professional",
-  "homepage": "https://mylesjborthwick.github.io/Portfolio_Website/",
+  "homepage": "https://mylesjborthwick.github.io/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
