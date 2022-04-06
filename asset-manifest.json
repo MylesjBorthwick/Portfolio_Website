@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MylesjBorthwick/Portfolio_Website.git/static/css/main.87cb238b.css",
-    "main.js": "/MylesjBorthwick/Portfolio_Website.git/static/js/main.1685dc33.js",
+    "main.js": "/MylesjBorthwick/Portfolio_Website.git/static/js/main.7d220f8c.js",
     "static/media/course.png": "/MylesjBorthwick/Portfolio_Website.git/static/media/course.59e9d976853c1f6df9c8.png",
     "static/media/sign.png": "/MylesjBorthwick/Portfolio_Website.git/static/media/sign.80ad424fd6d47f91bdfd.png",
     "static/media/ticgui.gif": "/MylesjBorthwick/Portfolio_Website.git/static/media/ticgui.987ef9c70af4ac781de1.gif",
@@ -26,10 +26,10 @@
     "static/media/spring.png": "/MylesjBorthwick/Portfolio_Website.git/static/media/spring.a77f97ec5c8c9065d145.png",
     "index.html": "/MylesjBorthwick/Portfolio_Website.git/index.html",
     "main.87cb238b.css.map": "/MylesjBorthwick/Portfolio_Website.git/static/css/main.87cb238b.css.map",
-    "main.1685dc33.js.map": "/MylesjBorthwick/Portfolio_Website.git/static/js/main.1685dc33.js.map"
+    "main.7d220f8c.js.map": "/MylesjBorthwick/Portfolio_Website.git/static/js/main.7d220f8c.js.map"
   },
   "entrypoints": [
     "static/css/main.87cb238b.css",
-    "static/js/main.1685dc33.js"
+    "static/js/main.7d220f8c.js"
   ]
 }
