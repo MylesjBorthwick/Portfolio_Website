@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 1%;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .reset-button {
@@ -54,35 +54,13 @@
     transform: translateY(2px);
   }
 
-  .game-status {
-    align-items: center;
-    appearance: none;
-    background-color:  rgba(231, 190, 149, 0.571);
-    border-radius: 50%;
-    border-width: 0;
   
-    width:min-content;
-    height: 60px;
-    color: #36395A;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: "JetBrains Mono",monospace;
+
+  @media only screen and (max-width: 1000px) {
   
-    justify-content: center;
-    line-height: 1;
-    list-style: none;
-    overflow: hidden;
-    padding-left: 16px;
-    padding-right: 16px;
-    position: relative;
-    text-align: left;
-    text-decoration: none;
-    transition: box-shadow .15s,transform .15s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    will-change: box-shadow,transform;
-    font-size: 18px;
+  .game-layout{
+    
+  }
+
   }
   

@@ -24,11 +24,9 @@ function AboutPage() {
                   <DownloadIcon />
                 </button>
               </a>
-           
             </div>
-          
           </div>
-          <ContactIcons/>
+          <ContactIcons />
           {/* <ContactIcons/> */}
         </div>
 

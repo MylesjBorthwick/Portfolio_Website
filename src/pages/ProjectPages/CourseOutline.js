@@ -1,7 +1,7 @@
 import NavBar from "../../components/NavBar";
-import "./ProjectPages.css";
+import "./css/ProjectPages.css";
 import Carousel from "react-material-ui-carousel";
-import { Paper, Button } from "@mui/material";
+
 import Pic1 from "../../assets/courseOutline.png";
 import Course from "../../assets/course.png";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
@@ -34,22 +34,14 @@ function CourseOutline() {
           <div className="project-description">
             <div className="card-content">
               <p>
-                This project marks my introduction to web development and was
-                developed as a tool for course instructors to easily create,
-                update and browse course outlines. The backend for this
-                application uses Django to handle incoming API requests while
-                React was used for the front-end UI.
+                Application for updating, creating and browsing course outlines.
               </p>
               <p>
-                Through building this application I was introduced to the
-                fundamental pillars of front-end development (Javascript, CSS
-                and HTML) and gained a better understanding of the complexities associated with full stack
-                development.
+                This project was my introduction to web-development. It features
+                a Django backend for serving RESTful API requests and a frontend
+                built in React.js.
               </p>
-              <p>
-                Check out the repository for an in-depth overview of this
-                project and its features.
-              </p>
+              <p>Check out the repository for the full project and its code.</p>
             </div>
           </div>
           <div className="project-tech">
@@ -72,11 +64,12 @@ function CourseOutline() {
 
             {/* <img className="gallery-pic" src={Pic5} alt="snippet2" /> */}
           </Carousel>
-          <a href="//github.com/MylesjBorthwick/Django-React-Project" target="_blank" >
-   
-          <button className="button-30">Project Repository</button>
+          <a
+            href="//github.com/MylesjBorthwick/Django-React-Project"
+            target="_blank"
+          >
+            <button className="button-30">Project Repository</button>
           </a>
-          
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "react-router-dom";
 
-import "./ProjectPages.css";
+import "./css/ProjectPages.css";
 
 function ToolShop() {
   return (
@@ -26,7 +26,7 @@ function ToolShop() {
           <span className="typed-title">Toolshop</span>
           <Link to="/portfolio/spring">
             <span className="nav-arrow">
-              <ArrowForwardIosIcon className="nav-arrow-right" />
+              <ArrowForwardIosIcon />
             </span>
           </Link>
         </div>
@@ -35,17 +35,18 @@ function ToolShop() {
           <div className="project-description">
             <div className="card-content">
               <p>
-                This Java based application manages and displays both customer and
-                tool information stored inside a MySQL database. The application has a basic Java GUI and employs the Model View Controller pattern to seperate client from server.
+                This Java based application manages and displays customer and
+                tool information stored inside a MySQL database. The application
+                has a Java GUI and employs the Model View Controller pattern to
+                seperate client from server.
               </p>
 
               <div>
                 <p>
-                  This was my first MVC project that leveraged a MySQL database and was an excellent exercise in both frontend and backend development.
+                  This was my first MVC project that leveraged a MySQL database
+                  and was an excellent exercise in fullstack development.
                 </p>
-                <p>
-                  Check out the repository for the full project.
-                </p>
+                <p>Check out the repository for the full project.</p>
               </div>
             </div>
           </div>

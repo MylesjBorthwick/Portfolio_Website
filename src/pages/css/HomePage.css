@@ -8,14 +8,9 @@
   justify-content: center;
 }
 
-.banner:hover{
-  cursor: default;
-}
-
 .avatar {
   max-width: 30vw;
   max-height: auto;
-
 
   transition: 0.5s ease-in-out;
 
@@ -47,7 +42,6 @@
   overflow: hidden;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
 }
 
 .download-button {
@@ -92,8 +86,7 @@
 
 .download-button:hover {
   box-shadow: rgba(45, 35, 66, 0.5) 0 4px 8px,
-    rgba(45, 35, 66, 0.5) 0 7px 13px -3px,
-    rgba(61, 90, 29, 1) 0 -4px 0 inset;
+    rgba(45, 35, 66, 0.5) 0 7px 13px -3px, rgba(61, 90, 29, 1) 0 -4px 0 inset;
 }
 
 .download-button:active {
@@ -107,15 +100,22 @@
   height: 100%;
 }
 
+.pic:hover {
+  box-shadow: 0 4px 30px 0 rgba(233, 143, 69, 0.8),
+   
+  
+  0 6px 50px 0 rgba(212, 112, 30, 0.8);
+}
+
 @keyframes fadeInSideName {
   0% {
     opacity: 0;
     transform: translateY(50px);
-    /* transform: translateX(50px); */
+
   }
   100% {
     opacity: 1;
-    /* transform: translateX(0); */
+    
     transform: translateY(0);
   }
 }
@@ -151,69 +151,45 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   max-width: 60%;
-  gap:5vh;
+  gap: 5vh;
   opacity: 0;
- 
-
 }
 
-/* .title {
-  margin-bottom: 0;
-  margin-top: 0;
-  font-size: calc(20px + 7vw);
-  font-family: "Sansita Swashed", cursive;
-  text-align: center;
-  text-decoration: none;
-  background: linear-gradient(to right, black 50%, #c57a48 50%, #ec6409);
-  background-size: 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: 0.5s ease-out;
-  min-height: 22vh;
-  
- 
- 
+.title a {
+  color: rgba(0, 0, 0, 1);
 }
-.title:hover {
-  background-position: -100%;
- } */
 
 .title {
-  font-family:  'Cutive', sans-serif;
-  background-color: rgba(0, 0, 0, 0.1);
+  font-family: "Cutive", sans-serif;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  /* font-family: 'Cutive', sans-serif; */
   background-clip: text;
-  text-shadow: 0px 3px 0px #bb9d79,
-  0px 5px 5px rgba(0,0,0,0.15),
-  0px 6px 2px rgba(0,0,0,0.1),
-  0px 34px 30px rgba(0,0,0,0.1);
+  text-shadow: 0px 3px 0px #d5bfa2, 0px 5px 5px rgba(0, 0, 0, 0.15),
+    0px 6px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
   font-size: 6vw;
-  /* min-height: 22vh; */
-
   display: flex;
   text-align: center;
-  min-height: 125px;
+  background: linear-gradient(to right, transparent, transparent),
+    linear-gradient(
+      to right,
+      rgb(233, 143, 69),
+      rgba(183, 61, 142, 0.794),
+      rgb(48, 108, 168)
+    );
+  background-size: 100% 0.1em, 0 0.1em;
 
-  background: 
-  linear-gradient(to right, transparent, transparent),
-
-  linear-gradient(to right, rgb(233, 143, 69), rgba(183, 61, 142, 0.794), rgb(48, 108, 168));
-background-size: 100% 0.1em, 0 0.1em;
-
-background-position: 100% 100%, 0 100%;
-background-repeat: no-repeat;
-transition: background-size 400ms;
-
-  /* justify-content: center; */
+  background-position: center, bottom;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s;
 }
-
 
 .title:hover,
 .title:focus {
   background-size: 0 0.1em, 100% 0.1em;
   cursor: default;
+
+  text-shadow: 0px 3px 0px rgb(233, 143, 69), 0px 5px 5px rgba(0, 0, 0, 0.15),
+    0px 6px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
 }
 
 .banner {
@@ -221,24 +197,22 @@ transition: background-size 400ms;
   font-size: 2vw;
   font-weight: 600;
 
-  animation: fadeInBanner 1s 1s;
+  animation: fadeInBanner 1s 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   font-family: "Libre Franklin", sans-serif;
   opacity: 0;
-
-  
+}
+.banner:hover {
+  cursor: default;
 }
 
-.project-link{
-  height:10vh;
+.project-link {
+  height: 10vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
-
-
-
 
 .btn {
   line-height: 50px;
@@ -259,26 +233,22 @@ transition: background-size 400ms;
 .btn-projects {
   color: rgba(0, 0, 0, 0.5);
   text-shadow: rgba(255, 255, 255, 0.2) 0px 3px 3px;
- 
+
   position: relative;
 }
 
-.btn-projects:hover{
-  box-shadow:inset 0 0 10px  rgba(0, 0, 0, 0.3); 
-
-  
+.btn-projects:hover {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-
-.btn-projects:active{
+.btn-projects:active {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .btn-projects::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
-
 
   z-index: 1;
   opacity: 0;
@@ -290,12 +260,11 @@ transition: background-size 400ms;
   display: none;
 }
 .btn-projects:hover::before {
-  opacity: 1; 
-  transform: scale(1, 1); 
+  opacity: 1;
+  transform: scale(1, 1);
 }
 .btn-projects::after {
-
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -303,30 +272,12 @@ transition: background-size 400ms;
   border-radius: 50%;
   height: 100%;
   z-index: 1;
-  /* transition: all 0.1s; */
 
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .btn-projects:hover::after {
-  opacity: 0; 
+  opacity: 0;
   transform: scale(0.1, 1);
-
-}
-
-
-
-.home-left{
- 
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: center;
-  animation: fadeInAnimation 1.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 
@@ -334,48 +285,42 @@ transition: background-size 400ms;
 @media only screen and (max-width: 1000px) {
   .layout-home {
     flex-direction: column;
-    row-gap: 10vh;
+    row-gap: calc(3vw + 3vh);
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    padding-bottom: 10%;
-    
+    padding-bottom: 5%;
   }
 
-  .home-left{
-    padding-top: 5%;
+  .pic {
+    padding-top: 0%;
   }
-
-
 
   .banner {
-    font-size: 4vw;
-  }
-
-  .btn-projects{
-    width:10vh;
-    height:10vh;
-    position: relative;
+    font-size: calc(0.1em + 3vw);
   }
 
   .avatar {
-    
     width: 60vw;
     max-width: 300px;
   }
 
-  .project-link{
-   height: 10vh;
+  .project-link {
+    height: 10vh;
   }
-  .content{
-   
-    max-width:90%;
-    gap: 6vh;
-  }
-
-  .title{
-    font-size: 10vw;
+  .content {
+    max-width: 90%;
+    gap: 2vh;
   }
 
- 
+  .title {
+    font-size: calc(0.7em + 6vw);
+    max-width: 100%;
+  }
+
+  .btn {
+    height: calc(3em + 1vw);
+
+    width: calc(3em + 1vw);
+  }
 }

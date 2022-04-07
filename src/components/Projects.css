@@ -1,27 +1,10 @@
-/* .item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: calc(100%/2);
-    height: 100px;
-    font-family: Signika;
-    font-weight: bold;
-    font-size: 1.5em;
-    border: solid 1px black;
-    background-color: #61DAFB;
-      
-    @media(max-width: 1150px) {
-        width: 100%
-    }
-} */
-
 .item{
     display: block;
 }
 
 .cards{
     min-height: 200px;
-    animation: fadeInAnimation 1.5s;
+    animation: fadeInAnimation 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 

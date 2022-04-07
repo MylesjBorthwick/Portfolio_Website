@@ -37,13 +37,13 @@ function Game() {
       const [a, b, c] = lines[i]
       if(board[a] === board[b] && board[a] === board[c] && board[a]=== "X"){
 
-        setGameStatus("X Wins!");
+        alert("X Wins!");
       }
       else if(board[a] === board[b] &&  board[a] === board[c] && board[a]=== "O"){
-        setGameStatus("O Wins!");
+        alert("O Wins!");
       }
       else if(moveCount>7){
-        setGameStatus("Draw!")
+       alert("Draw!")
       }     
     }
     return null
@@ -86,7 +86,7 @@ function Game() {
 
   return (
     <div className="game-layout">
-     <div className="game-status"> {gameStatus}</div>
+     {/* <div className="game-status"> {gameStatus}</div> */}
      
         
       <Board gameBoard={boardState} onClick={clickHandler} />

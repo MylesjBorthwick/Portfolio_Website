@@ -1,9 +1,7 @@
 import NavBar from "../../components/NavBar";
-import "./ProjectPages.css";
+import "./css/ProjectPages.css";
 import Pic1 from "../../assets/springscreen1.png";
 import Pic2 from "../../assets/spring.png";
-import Pic3 from "../../assets/springscreen3.png";
-import Pic5 from "../../assets/springscreen5.png";
 import Carousel from "react-material-ui-carousel";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -27,7 +25,7 @@ function Spring() {
           <span className="typed-title">Spring API</span>
           <Link to="/portfolio/courseoutline">
             <span className="nav-arrow">
-              <ArrowForwardIosIcon className="nav-arrow-right" />
+              <ArrowForwardIosIcon />
             </span>
           </Link>
         </div>
@@ -45,13 +43,12 @@ function Spring() {
 
               <div>
                 <p>
-                  Through this project I gained valuable experience in backend
+                  This project gave me valuable experience in backend
                   web development, Agile project management and client
                   communication within a professional context.{" "}
                 </p>
                 <p>
-                  Check out the repository for an in-depth overview of this
-                  project and its features.
+                  Check out the repository for more information about this project.
                 </p>
               </div>
             </div>

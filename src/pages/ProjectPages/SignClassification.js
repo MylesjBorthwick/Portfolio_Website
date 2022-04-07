@@ -1,6 +1,6 @@
 import NavBar from "../../components/NavBar";
 import Carousel from "react-material-ui-carousel";
-import "./ProjectPages.css";
+import "./css/ProjectPages.css";
 import Pic1 from "../../assets/signlabels.png";
 import Sign from "../../assets/sign.png";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
@@ -15,15 +15,29 @@ function SignClassification() {
       </header>
 
       <div className="project-layout">
-
-        <div className="project-title"> <Link to="/portfolio/courseoutline" ><span  className="nav-arrow"><ArrowBackIosNewIcon/></span></Link><span className="typed-title">Sign Classification</span> <Link to="/portfolio/tictactoe" ><span  className="nav-arrow"><ArrowForwardIosIcon /></span></Link></div>
-   
+        <div className="project-title">
+          {" "}
+          <Link to="/portfolio/courseoutline">
+            <span className="nav-arrow">
+              <ArrowBackIosNewIcon />
+            </span>
+          </Link>
+          <span className="typed-title">Sign Classification</span>{" "}
+          <Link to="/portfolio/tictactoe">
+            <span className="nav-arrow">
+              <ArrowForwardIosIcon />
+            </span>
+          </Link>
+        </div>
 
         <div className="project-about">
           <div className="project-description">
             <div className="card-content">
               <p>
-              Road sign identification is one of many machine learning problems associated with automated cars that is crucial for safe and efficient navigation in our current traffic system. At it's core, this model classifies road sign images taken from the GTSRB dataset and assigns them one of 43 different labels based on spacial data acquired from each image.
+                Machine learning model created for the multi-classification of
+                road sign images. Road sign identification is one of many
+                machine learning problems associated with automated cars that is
+                crucial for safe and efficient road navigation.
               </p>
               <div>
                 <p>
@@ -49,14 +63,22 @@ function SignClassification() {
           </div>
         </div>
         <div className="project-gallery">
-          <Carousel className="carousel" animation="slide" height={300} indicators={false}>
+          <Carousel
+            className="carousel"
+            animation="slide"
+            height={300}
+            indicators={false}
+          >
             <img className="gallery-pic" src={Sign} alt="spring" />
             <img className="gallery-pic" src={Pic1} alt="snippet1" />
 
             {/* <img className="gallery-pic" src={Pic5} alt="snippet2" /> */}
           </Carousel>
-          <a href="//github.com/MylesjBorthwick/Traffic-Sign-Identification" target="_blank" >
-          <button className="button-30">Project Repository</button>
+          <a
+            href="//github.com/MylesjBorthwick/Traffic-Sign-Identification"
+            target="_blank"
+          >
+            <button className="button-30">Project Repository</button>
           </a>
         </div>
       </div>
