@@ -348,8 +348,8 @@ align-items: center;
    .project-title{
      font-size: 6vw;
      align-items: center;
-     min-height: 8vw;
-     padding-top: 5%;
+     min-height: fit-content;
+     /* padding-top: 5%; */
    }
 
 }
