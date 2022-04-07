@@ -322,6 +322,7 @@ align-items: center;
     .project-about{
         width: 100%;
         justify-content: center;
+     
     }
 
     .project-gallery{
@@ -329,7 +330,8 @@ align-items: center;
         padding-bottom: 15%;
     }
    .project-layout{
-       gap: 50px
+       gap: 50px;
+       padding-top: 10%;
    }
 
    .game{
@@ -348,7 +350,7 @@ align-items: center;
    .project-title{
      font-size: 6vw;
      align-items: center;
-     min-height: fit-content;
+     min-height: min-content;
      /* padding-top: 5%; */
    }
 

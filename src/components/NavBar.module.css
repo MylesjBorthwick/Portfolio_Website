@@ -138,6 +138,10 @@
         padding-top: 3%;
     }
 
+    .navbar{
+        min-height:min-content;
+    }
+
    
    
   }
