@@ -27,7 +27,7 @@ function TicTacToe() {
               <ArrowBackIosNewIcon />
             </span>
           </Link>
-          <span className="typed-title">Tic-Tac-Toe</span>
+         Tic-Tac-Toe
           <Link to="/portfolio/toolshop">
             <span className="nav-arrow">
               <ArrowForwardIosIcon className="nav-arrow-right" />

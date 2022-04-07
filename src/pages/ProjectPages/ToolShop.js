@@ -23,7 +23,7 @@ function ToolShop() {
               <ArrowBackIosNewIcon />
             </span>
           </Link>
-          <span className="typed-title">Toolshop</span>
+          Toolshop
           <Link to="/portfolio/spring">
             <span className="nav-arrow">
               <ArrowForwardIosIcon />

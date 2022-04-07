@@ -82,7 +82,7 @@
 .project-title{
     display: flex;
     /* max-height: 100px; */
-    min-height: fit-content;
+
     min-width:100%;
     justify-content: space-around;
    
@@ -98,6 +98,7 @@
   background-position: center, bottom;
   background-repeat: no-repeat;
   transition: background-size 0.5s;
+  height: min-content;
   
 
     width: min-content;
@@ -268,17 +269,7 @@ align-items: center;
     
 }
 
-.typed-title {
-    overflow: hidden;
-    /* border-right: 0.08em solid black; */
-    white-space: nowrap;
-    /* animation: typing 3s steps(30, end) 0.25s forwards, blink 0.8s infinite; */
-   
-    /* width: 0; */
-    max-width: min-content;
-  
-    /* animation-delay: ; */
-  }
+
   
     @keyframes typing {
       from {
@@ -348,9 +339,9 @@ align-items: center;
   
 
    .project-title{
-     font-size: 6vw;
+     font-size: calc(0.5em + 3vw);
      align-items: center;
-     min-height: min-content;
+  
      /* padding-top: 5%; */
    }
 

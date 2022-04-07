@@ -22,7 +22,7 @@ function Spring() {
               <ArrowBackIosNewIcon />
             </span>
           </Link>
-          <span className="typed-title">Spring API</span>
+         Spring API
           <Link to="/portfolio/courseoutline">
             <span className="nav-arrow">
               <ArrowForwardIosIcon />

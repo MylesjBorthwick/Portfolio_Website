@@ -22,7 +22,7 @@ function SignClassification() {
               <ArrowBackIosNewIcon />
             </span>
           </Link>
-          <span className="typed-title">Sign Classification</span>{" "}
+         Sign Classification
           <Link to="/portfolio/tictactoe">
             <span className="nav-arrow">
               <ArrowForwardIosIcon />
