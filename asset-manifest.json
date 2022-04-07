@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_Website/static/css/main.b04febde.css",
-    "main.js": "/Portfolio_Website/static/js/main.ceb229cf.js",
+    "main.css": "/Portfolio_Website/static/css/main.6a528dcb.css",
+    "main.js": "/Portfolio_Website/static/js/main.52e4dde7.js",
     "static/media/course.png": "/Portfolio_Website/static/media/course.59e9d976853c1f6df9c8.png",
     "static/media/sign.png": "/Portfolio_Website/static/media/sign.80ad424fd6d47f91bdfd.png",
     "static/media/ticgui.gif": "/Portfolio_Website/static/media/ticgui.987ef9c70af4ac781de1.gif",
@@ -10,26 +10,22 @@
     "static/media/port_logo_noFill.png": "/Portfolio_Website/static/media/port_logo_noFill.389bc5b9575d2b4aad7f.png",
     "static/media/jump.png": "/Portfolio_Website/static/media/jump.a1c7f0cf6bb397483cc2.png",
     "static/media/myles.png": "/Portfolio_Website/static/media/myles.14217c48e80a8ecd6fa2.png",
-    "static/media/springscreen3.png": "/Portfolio_Website/static/media/springscreen3.94b62fc9ed42760c7fcb.png",
     "static/media/terminalTic.gif": "/Portfolio_Website/static/media/terminalTic.43c70a5c346e0dac246c.gif",
     "static/media/courseOutline.png": "/Portfolio_Website/static/media/courseOutline.15e86ac5dcd466369a1e.png",
-    "static/media/interloper.png": "/Portfolio_Website/static/media/interloper.3185bfff009e890a1d64.png",
-    "static/media/springscreen5.png": "/Portfolio_Website/static/media/springscreen5.6e8a004aa163de7d2223.png",
     "static/media/springscreen1.png": "/Portfolio_Website/static/media/springscreen1.2e2a6874a659e5abb817.png",
     "static/media/tic.png": "/Portfolio_Website/static/media/tic.329ff02500b54154c851.png",
     "static/media/tools.png": "/Portfolio_Website/static/media/tools.241dc7dac4e5775a1142.png",
-    "static/media/ticapi.png": "/Portfolio_Website/static/media/ticapi.e737602d95caac716154.png",
     "static/media/uofc.png": "/Portfolio_Website/static/media/uofc.261cfbec241b1ef20814.png",
     "static/media/signlabels.png": "/Portfolio_Website/static/media/signlabels.e405128ffbefa5519ea3.png",
     "static/media/uofs.png": "/Portfolio_Website/static/media/uofs.d4dde0605e48810208ba.png",
     "static/media/gradient.png": "/Portfolio_Website/static/media/gradient.5501987bb1ec74783898.png",
     "static/media/spring.png": "/Portfolio_Website/static/media/spring.a77f97ec5c8c9065d145.png",
     "index.html": "/Portfolio_Website/index.html",
-    "main.b04febde.css.map": "/Portfolio_Website/static/css/main.b04febde.css.map",
-    "main.ceb229cf.js.map": "/Portfolio_Website/static/js/main.ceb229cf.js.map"
+    "main.6a528dcb.css.map": "/Portfolio_Website/static/css/main.6a528dcb.css.map",
+    "main.52e4dde7.js.map": "/Portfolio_Website/static/js/main.52e4dde7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b04febde.css",
-    "static/js/main.ceb229cf.js"
+    "static/css/main.6a528dcb.css",
+    "static/js/main.52e4dde7.js"
   ]
 }
