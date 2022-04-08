@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.abc8f9e4.css",
+    "main.css": "/static/css/main.f2bb11d9.css",
     "main.js": "/static/js/main.c6e246e9.js",
     "static/media/course.png": "/static/media/course.59e9d976853c1f6df9c8.png",
     "static/media/sign.png": "/static/media/sign.80ad424fd6d47f91bdfd.png",
@@ -21,11 +21,11 @@
     "static/media/gradient.png": "/static/media/gradient.5501987bb1ec74783898.png",
     "static/media/spring.png": "/static/media/spring.a77f97ec5c8c9065d145.png",
     "index.html": "/index.html",
-    "main.abc8f9e4.css.map": "/static/css/main.abc8f9e4.css.map",
+    "main.f2bb11d9.css.map": "/static/css/main.f2bb11d9.css.map",
     "main.c6e246e9.js.map": "/static/js/main.c6e246e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.abc8f9e4.css",
+    "static/css/main.f2bb11d9.css",
     "static/js/main.c6e246e9.js"
   ]
 }
