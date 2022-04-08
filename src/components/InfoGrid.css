@@ -44,7 +44,8 @@
 }
 
 .school-icon img {
-  max-width: 45%;
+  max-width: 3em;
+  padding-right: 25%;
 }
 .box {
   font-size: 1em;
@@ -63,9 +64,9 @@
 .box:hover {
   box-shadow: none;
   width: 30vw;
-  height: 20vh;
+  height: 10vw;
   border-radius: 0;
-  transition: 0.6s ease-in-out;
+  transition: 0.3s ease-in-out;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -96,9 +97,12 @@
 .about-me:hover {
   /* height:20vh; */
   width: 100%;
-  height: 25vh;
+  min-height: max-content;
+  height: 20vh;
+  /* min-height: fit-content; */
+
   border-radius: 0%;
-  transition: 0.6s ease-in-out;
+  transition: 0.3s ease-in-out;
   box-shadow: none;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
 
@@ -133,6 +137,7 @@
   gap: 5%;
   /* row-gap: 10%; */
   height: 80%;
+
   /* max-width: 100%; */
 }
 
@@ -146,19 +151,19 @@
 
 .box:hover h1 {
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .about-me:hover h1 {
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .box:hover .box-content-skills,
 .box:hover .box-content {
   opacity: 1;
 
-  transition: opacity 0.5s 0.4s ease-in-out;
+  transition: opacity 0.3s 0.2s ease-in-out;
 }
 .school {
   font-style: italic;
@@ -169,11 +174,13 @@
   text-align: left;
   align-self: center;
   font-style: italic;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .about-me:hover .box-content {
   opacity: 1;
-  transition: opacity 0.5s 0.4s ease-in-out;
+  transition: opacity 0.3s 0.2s  ease-in-out;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -184,21 +191,31 @@
 
   .box:hover {
     width: 95vw;
+    height: fit-content;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
   .about-me {
-    height: 30vh;
+    height: 20vh;
     width: 80vw;
   }
 
   .about-me:hover {
     width: 95vw;
-    height: 40vh;
+    height: fit-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .info {
-    height: 80%;
+  
     width: 90%;
+    
+    font-size: 1em;
+    
+    /* font-size: 0.8em; */
+    
   }
 
   .row {
@@ -210,21 +227,22 @@
   }
 
   .box-content {
-    font-size: calc(0.2em + 1.5vw);
+    font-size: 0.7em;
     width: 98%;
   }
 
   .box-content-skills {
-    font-size: calc(0.1em + 2vw);
+    font-size: 0.8em;
     width: 100%;
   }
   .grid h1 {
     font-size: 1.5em;
   }
-}
 
-@media only screen and (max-width: 400px) {
-  .info {
-    font-size: 1.2em;
+  .school-icon img {
+
+   width: 30px;
   }
 }
+
+
