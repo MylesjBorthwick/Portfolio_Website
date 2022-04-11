@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d092730a.css",
-    "main.js": "/static/js/main.946f1a6d.js",
+    "main.css": "/static/css/main.91b99e11.css",
+    "main.js": "/static/js/main.96af0647.js",
     "static/media/course.png": "/static/media/course.59e9d976853c1f6df9c8.png",
     "static/media/sign.png": "/static/media/sign.80ad424fd6d47f91bdfd.png",
     "static/media/ticgui.gif": "/static/media/ticgui.987ef9c70af4ac781de1.gif",
@@ -22,11 +22,11 @@
     "static/media/gradient.png": "/static/media/gradient.5501987bb1ec74783898.png",
     "static/media/spring.png": "/static/media/spring.a77f97ec5c8c9065d145.png",
     "index.html": "/index.html",
-    "main.d092730a.css.map": "/static/css/main.d092730a.css.map",
-    "main.946f1a6d.js.map": "/static/js/main.946f1a6d.js.map"
+    "main.91b99e11.css.map": "/static/css/main.91b99e11.css.map",
+    "main.96af0647.js.map": "/static/js/main.96af0647.js.map"
   },
   "entrypoints": [
-    "static/css/main.d092730a.css",
-    "static/js/main.946f1a6d.js"
+    "static/css/main.91b99e11.css",
+    "static/js/main.96af0647.js"
   ]
 }
