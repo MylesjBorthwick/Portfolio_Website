@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./InfoGrid.css";
+import "./css/InfoGrid.css";
 import LanguageIcons from "./LanguageIcons";
 import TechIcons from "./TechIcons";
 import Uofc from "../assets/uofc.png";
@@ -17,10 +17,11 @@ export default function InfoGrid() {
               Mechanical Engineering and Software Development. As a life-long
               learner I am constantly looking for new opportunities to develop
               my skillset and create value for myself and others.
-              <p>
+             <br/>
+             <br/>
                 Get in touch with me through LinkedIn or hover over my photo to
                 download my full resume!
-              </p>
+            
             </div>
           </span>
         </div>
@@ -38,6 +39,7 @@ export default function InfoGrid() {
             <span>Machine Learning</span>
             <span>Mechanical Design</span>
             <span>Excellent Interpersonal Skills</span>
+            <span>Data Analysis</span>
 
             <span>Agile Methodologies</span>
           </div>

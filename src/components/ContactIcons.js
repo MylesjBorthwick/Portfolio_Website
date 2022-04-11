@@ -1,6 +1,6 @@
 import Git from "../assets/git.png";
 import Linked from "../assets/linkd2.png";
-import "./ContactIcons.css"
+import "./css/ContactIcons.css"
 
 export default function ContactIcons() {
   return (

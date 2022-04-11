@@ -1,7 +1,7 @@
 import {useState} from "react";
 import Board from "./Board";
 import ReplayIcon from "@mui/icons-material/Replay";
-import "./Game.css";
+import "./css/Game.css";
 
 function Game() {
   const [playerTurn, setPlayerTurn] = useState("");
@@ -59,7 +59,7 @@ function Game() {
 
   function resetHandler() {
     setBoardState(Array(9).fill(""));
-    setGameStatus("In Progress");
+    setGameStatus("Play On!");
     setPlayerTurn("");
 
     setMoveCount(null);

@@ -5,12 +5,11 @@ import Course from "../assets/course.png";
 import Sign from "../assets/sign.png";
 import Game from "../assets/interloper.png";
 import ProjectCard from "./ProjectCard";
-import classes from "./Projects.css";
+import classes from "./css/Projects.css";
 
 export default function Projects(props) {
   return (
     <div>
-   
       <Link to="/portfolio/tictactoe">
         <ProjectCard
           title="Tic Tac Toe"

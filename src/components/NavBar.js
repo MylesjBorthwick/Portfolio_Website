@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import classes from "./NavBar.module.css";
+import classes from "./css/NavBar.module.css";
 import logo from "../assets/port_logo_noFill.png";
 import Tray from "./Tray";
 

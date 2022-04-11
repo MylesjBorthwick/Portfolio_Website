@@ -5,7 +5,7 @@ import HandymanOutlinedIcon from "@mui/icons-material/HandymanOutlined";
 import CottageOutlinedIcon from "@mui/icons-material/CottageOutlined";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import { AiOutlineBars } from "react-icons/ai";
-import classes from "./Tray.module.css";
+import classes from "./css/Tray.module.css";
 import { Link } from "react-router-dom";
 
 export default function Tray() {

@@ -1,4 +1,4 @@
-import "./Tile.css";
+import "./css/Tile.css";
 function Tile(props) {
   function clickHandler() {
     if (props.val != "") {

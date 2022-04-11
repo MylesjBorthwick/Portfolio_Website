@@ -1,5 +1,5 @@
 import Tile from "./Tile";
-import "./Board.css";
+import "./css/Board.css";
 
 function Board(props) {
   return (

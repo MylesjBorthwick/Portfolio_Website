@@ -1,7 +1,7 @@
 import * as React from "react";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import classes from "./ProjectCard.module.css";
+import classes from "./css/ProjectCard.module.css";
 
 function ProjectCard(props) {
   return (
