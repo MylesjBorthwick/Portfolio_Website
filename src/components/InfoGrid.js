@@ -35,7 +35,6 @@ export default function InfoGrid() {
             <span>Leadership</span>
             <span>Public Speaking</span>
             <span>Technical Writing</span>
-
             <span>Machine Learning</span>
             <span>Mechanical Design</span>
             <span>Excellent Interpersonal Skills</span>
