@@ -13,12 +13,17 @@ export default function InfoGrid() {
           <h1>About Me</h1>
           <span className="box-content">
             <div className="info">
-              I'm a versatile and adaptable graduate with a background in both Mechanical Engineering and Software Development. As a life-long learner I am constantly looking for new opportunities to develop my skillset and create value for myself and others. 
-              <p>Get in touch with me through LinkedIn or hover over my photo to download my full resume!</p>
+              I'm a versatile and adaptable graduate with a background in both
+              Mechanical Engineering and Software Development. As a life-long
+              learner I am constantly looking for new opportunities to develop
+              my skillset and create value for myself and others.
+              <p>
+                Get in touch with me through LinkedIn or hover over my photo to
+                download my full resume!
+              </p>
             </div>
           </span>
         </div>
-        {/* <div className="box"><h1>Education</h1></div> */}
       </div>
 
       <div className="row">
@@ -35,28 +40,22 @@ export default function InfoGrid() {
             <span>Excellent Interpersonal Skills</span>
 
             <span>Agile Methodologies</span>
-
-       
           </div>
         </div>
         <div className="box">
           <h1>Education</h1>
           <span className="box-content">
             <div className="school-icon">
-              <img src={Uofc} />
-              <img src={Uofs} />
+              <img src={Uofc} alt="uofc-logo"/>
+              <img src={Uofs} alt="uofs-logo"/>
             </div>
 
             <div>
-              <div>
-                <span>M.ENG. - Software Engineering (2020-2021)</span>
-                <div className="school"> University of Calgary</div>
-              </div>
-              <br/>
-              <div>
-                B.Sc. - Mechanical Engineering (2014-2019)
-                <div className="school"> University of Saskatchewan</div>
-              </div>
+              <span>M.ENG. - Software Engineering (2020-2021)</span>
+              <div className="school"> University of Calgary</div>
+              <br />
+              B.Sc. - Mechanical Engineering (2014-2019)
+              <div className="school"> University of Saskatchewan</div>
             </div>
           </span>
         </div>

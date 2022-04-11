@@ -22,7 +22,7 @@ function Spring() {
               <ArrowBackIosNewIcon />
             </span>
           </Link>
-         Spring API
+          Spring API
           <Link to="/portfolio/courseoutline">
             <span className="nav-arrow">
               <ArrowForwardIosIcon />
@@ -37,27 +37,35 @@ function Spring() {
                 This web API was created as part of my Capstone team's industry
                 project while attending the University of Calgary. The goal of
                 this project was to adapt a legacy codebase within a Spring
-                framework in order to evaluate it's viabilty for our client's
-                service requirements.
+                framework and evaluate it's viabilty for our client's service
+                requirements.
               </p>
 
               <div>
                 <p>
-                  This project gave me valuable experience in backend
-                  web development, Agile project management and client
-                  communication within a professional context.{" "}
+                  This project gave me valuable experience in backend web
+                  development, Agile project management and client communication
+                  within a professional context.{" "}
                 </p>
                 <p>
-                  Check out the repository for more information about this project.
+                  Check out the repository for more information about this
+                  project.
                 </p>
               </div>
             </div>
           </div>
           <div className="project-tech">
             <div className="card-content">
-              <p>Languages: Java</p>
-              <p>Technologies: Spring Boot, Gradle, Docker, MySQL, Redis</p>
-              <p>Dev Environment: Linux + IntelliJ</p>
+              <p>
+                <span>Languages:</span> &nbsp; Java
+              </p>
+              <p>
+                <span>Technologies:</span> &nbsp; Spring Boot, Gradle, Docker,
+                MySQL, Redis
+              </p>
+              <p>
+                <span>Dev Environment:</span> &nbsp; Linux + IntelliJ
+              </p>
             </div>
           </div>
         </div>
@@ -73,8 +81,12 @@ function Spring() {
 
             {/* <img className="gallery-pic" src={Pic5} alt="snippet2" /> */}
           </Carousel>
-          <a href="//github.com/MylesjBorthwick/SpringChickenWebService" target="_blank" >
-          <button className="button-30">Project Repository</button>
+          <a
+            href="//github.com/MylesjBorthwick/SpringChickenWebService"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="button-30">Project Repository</button>
           </a>
         </div>
       </div>

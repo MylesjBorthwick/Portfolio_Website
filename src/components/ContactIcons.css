@@ -1,47 +1,35 @@
-
-
-.about-links{
-    position: sticky;
+.about-links {
+  position: sticky;
 }
 
-.contact-icons{
- 
+.contact-icons {
+  /* background-color: rgba(0, 0, 0, 0.01) ; */
+  min-height: 100px;
+  min-width: 10vw;
+  display: flex;
+  border-radius: 1%;
+  transition: 0.5s ease-in-out;
 
-    /* background-color: rgba(0, 0, 0, 0.01) ; */
-    min-height: 100px;
-   min-width: 10vw;
-    display: flex;
-    border-radius: 1%;
-    transition: 0.5s ease-in-out;
-  
-    align-items: flex-start;
-    justify-content: space-between;
-   
-    
-  
-  }
-  
-  .git-icon, .linked-icon{
-  
-    width:min-content;
-  
-  }
-  
-  .git-icon:hover, .linked-icon:hover {
-    
-    cursor: pointer;
-    width: 110%;
-  
-  }
+  align-items: flex-start;
+  justify-content: space-between;
+}
 
-  @media only screen and (max-width: 1000px) {
-  
-.contact-icons{
-    
+.git-icon,
+.linked-icon {
+  width: min-content;
+}
+
+.git-icon:hover,
+.linked-icon:hover {
+  cursor: pointer;
+  width: 110%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact-icons {
     height: min-content;
-    width:30vw;
+    width: 30vw;
     min-height: 80px;
     align-items: flex-end;
-}
-
+  }
 }

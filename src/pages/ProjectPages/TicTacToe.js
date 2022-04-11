@@ -27,7 +27,7 @@ function TicTacToe() {
               <ArrowBackIosNewIcon />
             </span>
           </Link>
-         Tic-Tac-Toe
+          Tic-Tac-Toe
           <Link to="/portfolio/toolshop">
             <span className="nav-arrow">
               <ArrowForwardIosIcon className="nav-arrow-right" />
@@ -38,9 +38,12 @@ function TicTacToe() {
           <div className="project-description">
             <div className="card-content">
               <p>
-                Through its simplicity, Tic Tac Toe is an excellent starting problem for learning new technologies. Despite its
+                Through its simplicity, Tic Tac Toe is an excellent starting
+                problem for learning new technologies. Despite its
                 straightforward logic, different implementations of this game
-                within new frameworks requires a solid foundational understanding of the tools and languages being used.{" "}
+                within new frameworks requires a solid foundational
+                understanding of the tools and languages being used. The
+                following projects were created for this purpose:{" "}
               </p>
 
               <div>
@@ -50,16 +53,23 @@ function TicTacToe() {
                   <li>Client Server Java Application using MVC</li>
                 </ul>
                 <p>
-                  Check out their repositories for more information and full code.
+                  Check out their repositories for more information and full
+                  code.
                 </p>
               </div>
             </div>
           </div>
           <div className="project-tech">
             <div className="card-content">
-              <p>Languages: Java / C#</p>
-              <p>Technologies: .Net / Docker / Swagger</p>
-              <p>Dev Environment: Windows / VsCode</p>
+              <p>
+                <span>Languages:</span> &nbsp; Java / C#
+              </p>
+              <p>
+                <span>Technologies:</span> &nbsp;.Net / Docker / Swagger
+              </p>
+              <p>
+                <span>Dev Environment:</span> &nbsp;Windows / VsCode
+              </p>
             </div>
           </div>
         </div>
@@ -71,14 +81,10 @@ function TicTacToe() {
             indicators={false}
             autoPlay={false}
           >
-            <img className="gallery-pic" src={Pic1} alt="spring" />
-
-            {/* <img className="gallery-pic" src={Pic2} alt="spring" /> */}
-
-            <img className="gallery-pic" src={TerminalGif} alt="snippet1" />
-            <img className="gallery-pic" src={GuiGif} alt="snippet1" />
+            <img className="gallery-pic" src={Pic1} alt="hero-tictac" />
+            <img className="gallery-pic" src={TerminalGif} alt="terminal" />
+            <img className="gallery-pic" src={GuiGif} alt="mvc" />
             <div className="game">
-              <div className="game-notify">Game available in desktop only</div>
               <div className="tictac">
                 <Game />
               </div>
@@ -86,13 +92,18 @@ function TicTacToe() {
           </Carousel>
 
           <div className="button-group">
-            <a href="//github.com/MylesjBorthwick/TicTacToeApi" target="_blank">
+            <a
+              href="//github.com/MylesjBorthwick/TicTacToeApi"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="button-30">.Net API</button>
             </a>
 
             <a
               href="//github.com/MylesjBorthwick/Tic-Tac-Toe-with-GUI"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="button-30">Client Server + Terminal</button>
             </a>

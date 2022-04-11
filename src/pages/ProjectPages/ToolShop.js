@@ -44,7 +44,7 @@ function ToolShop() {
               <div>
                 <p>
                   This was my first MVC project that leveraged a MySQL database
-                  and was an excellent exercise in fullstack development.
+                  and was an excellent exercise in database management and connectivity.
                 </p>
                 <p>Check out the repository for the full project.</p>
               </div>
@@ -52,9 +52,9 @@ function ToolShop() {
           </div>
           <div className="project-tech">
             <div className="card-content">
-              <p>Languages: Java</p>
-              <p>Technologies: MySQL</p>
-              <p>Dev Environment: Windows + VSCode</p>
+              <p><span>Languages:</span>&nbsp; Java</p>
+              <p><span>Technologies:</span> &nbsp;MySQL</p>
+              <p><span>Dev Environment:</span> &nbsp;Windows + VSCode</p>
             </div>
           </div>
         </div>
@@ -72,6 +72,7 @@ function ToolShop() {
           <a
             href="//github.com/MylesjBorthwick/Tool-Shop-Project"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="button-30">Project Repository</button>
           </a>

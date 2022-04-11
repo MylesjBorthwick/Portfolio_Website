@@ -59,7 +59,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 60vw;
-    height: 100%;
+
    
 }
 
@@ -118,8 +118,6 @@
 .cell-block:hover .cell{
   width:100vw;
 }
-
-
 
 .download {
   position: absolute;
@@ -234,12 +232,6 @@
       gap: 0;
       padding-top: 10%;
     }
-
- 
-
-    /* .me{
-      width:
-    } */
 
  
 

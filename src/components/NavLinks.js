@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { AiOutlineBars } from "react-icons/ai";
 
 
 export default function NavLinks (){

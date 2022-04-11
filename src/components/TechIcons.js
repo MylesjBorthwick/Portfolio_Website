@@ -10,14 +10,14 @@ import Vue from "../assets/icons/vue.png";
 function TechIcons() {
   return (
     <div className="tech-icons">
-      <img src={Re}></img>
-      <img src={Vue} />
-      <img src={Node} />
-      <img src={Spring} />
-      <img src={Tense} />
-      <img src={Mongo} />
-      <img src={Git} />
-      <img src={Dock} />
+      <img src={Re} alt="React"></img>
+      <img src={Vue}  alt="Vue"/>
+      <img src={Node}  alt="Node"/>
+      <img src={Spring}  alt="Spring"/>
+      <img src={Tense}  alt="Tensor"/>
+      <img src={Mongo}  alt="Mongodb"/>
+      <img src={Git}  alt="github"/>
+      <img src={Dock}  alt="docker"/>
     </div>
   );
 }

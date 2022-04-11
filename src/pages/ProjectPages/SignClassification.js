@@ -3,6 +3,7 @@ import Carousel from "react-material-ui-carousel";
 import "./css/ProjectPages.css";
 import Pic1 from "../../assets/signlabels.png";
 import Sign from "../../assets/sign.png";
+import Dataset from "../../assets/dataset-traffic.png"
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "react-router-dom";
@@ -56,9 +57,9 @@ function SignClassification() {
           </div>
           <div className="project-tech">
             <div className="card-content">
-              <p>Languages: Python</p>
-              <p>Technologies: TensorFlow, Pandas, Sklearn</p>
-              <p>Dev Environment: Windows + Jupyter Notebook</p>
+              <p><span>Languages:</span> &nbsp; Python</p>
+              <p><span>Technologies:</span> &nbsp;TensorFlow, Pandas, Sklearn</p>
+              <p><span>Dev Environment:</span> &nbsp;Windows + Jupyter Notebook</p>
             </div>
           </div>
         </div>
@@ -69,14 +70,16 @@ function SignClassification() {
             height={300}
             indicators={false}
           >
-            <img className="gallery-pic" src={Sign} alt="spring" />
-            <img className="gallery-pic" src={Pic1} alt="snippet1" />
+            <img className="gallery-pic" src={Sign} alt="hero-sign" />
+            <img className="gallery-pic" src={Dataset} alt="traffic-dataset"/>
+            <img className="gallery-pic" src={Pic1} alt="label-chart" />
 
             {/* <img className="gallery-pic" src={Pic5} alt="snippet2" /> */}
           </Carousel>
           <a
             href="//github.com/MylesjBorthwick/Traffic-Sign-Identification"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="button-30">Project Repository</button>
           </a>

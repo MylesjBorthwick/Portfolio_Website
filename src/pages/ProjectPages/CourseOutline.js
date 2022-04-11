@@ -46,9 +46,9 @@ function CourseOutline() {
           </div>
           <div className="project-tech">
             <div className="card-content">
-              <p>Languages: Javascript, CSS, HTML, Python</p>
-              <p>Technologies: React, Node.js, Django</p>
-              <p>Dev Environment: Windows + VS Code</p>
+              <p><span>Languages:</span> &nbsp; Javascript, CSS, HTML, Python</p>
+              <p><span>Technologies:</span> &nbsp; React, Node.js, Django</p>
+              <p><span>Dev Environment:</span> &nbsp; Windows + VS Code</p>
             </div>
           </div>
         </div>
@@ -61,12 +61,11 @@ function CourseOutline() {
           >
             <img className="gallery-pic" src={Pic1} alt="snippet1" />
             <img className="gallery-pic" src={Course} alt="snippet1" />
-
-            {/* <img className="gallery-pic" src={Pic5} alt="snippet2" /> */}
           </Carousel>
           <a
             href="//github.com/MylesjBorthwick/Django-React-Project"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="button-30">Project Repository</button>
           </a>

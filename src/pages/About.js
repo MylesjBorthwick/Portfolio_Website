@@ -27,9 +27,8 @@ function AboutPage() {
             </div>
           </div>
           <ContactIcons />
-          {/* <ContactIcons/> */}
         </div>
-
+        
         <div className="content-about">
           <InfoGrid />
         </div>

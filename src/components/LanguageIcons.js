@@ -8,12 +8,11 @@ import H5 from "../assets/icons/html.png"
 
 
 
-function LanguageIcons(){
+export default function LanguageIcons(){
 
-    return(<div className="tech-icons"><img src={Java}></img>
-    <img src={Script}/><img src={Python}/><img src={H5}/><img src={Css}/><img src={Csharp}/><img src={Cplus}/></div>
+    return(<div className="tech-icons"><img src={Java}  alt=""/>
+    <img src={Script} alt=""/><img src={Python} alt=""/><img src={H5} alt=""/><img src={Css} alt=""/><img src={Csharp} alt=""/><img src={Cplus} alt=""/></div>
     )
 
 }
 
-export default LanguageIcons;
