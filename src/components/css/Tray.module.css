@@ -4,6 +4,7 @@
   text-align: left;
   padding-left: 7%;
   display: inline-block;
+  width: 90%;
 }
 
 .icon {
@@ -18,7 +19,6 @@
 
 li li {
   font-size: 15px;
-  
 }
 
 .navlist li a:hover {
@@ -43,5 +43,5 @@ a {
 
 ul {
   list-style: none;
-  padding-left: 20%;
+  padding-left: 15%;
 }

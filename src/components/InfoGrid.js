@@ -14,14 +14,13 @@ export default function InfoGrid() {
           <span className="box-content">
             <div className="info">
               I'm a versatile and adaptable graduate with a background in both
-              Mechanical Engineering and Software Development. As a life-long
-              learner I am constantly looking for new opportunities to develop
-              my skillset and create value for myself and others.
-             <br/>
-             <br/>
-                Get in touch with me through LinkedIn or hover over my photo to
-                download my full resume!
-            
+              Software and Mechanical Engineering. As a life-long learner I am
+              constantly looking for new opportunities to develop my
+              professional skillset and work among driven and innovative teams!
+              <br />
+              <br />
+              Get in touch with me through LinkedIn or hover over my photo to
+              download my full resume!
             </div>
           </span>
         </div>
@@ -47,8 +46,8 @@ export default function InfoGrid() {
           <h1>Education</h1>
           <span className="box-content">
             <div className="school-icon">
-              <img src={Uofc} alt="uofc-logo"/>
-              <img src={Uofs} alt="uofs-logo"/>
+              <img src={Uofc} alt="uofc-logo" />
+              <img src={Uofs} alt="uofs-logo" />
             </div>
 
             <div>
